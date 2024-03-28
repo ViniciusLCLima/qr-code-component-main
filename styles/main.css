@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin:0px
+}
 .light-gray-bg {
     background-color: hsl(212, 45%, 89%);
 }
@@ -14,7 +19,6 @@
 }
 
 body {
-    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +37,24 @@ main {
     box-sizing: border-box;
 }
 
+main>div{
+    text-align: center;
+    margin: 0px 16px;
+    font-family: "outfit", sans-serif;
+    margin-top: 24px;
+}
+
+h1{
+    color: #1F314F;
+    font-size: 22px;
+}
+
+p{
+    font-size: 15px;
+    color: #7D889E;
+    margin: 16px 16px 0px 16px;
+}
+
 img {
     width: 288px;
     height: 288px;
@@ -40,5 +62,6 @@ img {
 
 footer {
     position: absolute;
-    bottom: 0px
+    bottom: 0px;
+    padding-bottom: 5px
 }
