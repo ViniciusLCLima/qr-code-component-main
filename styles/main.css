@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    --light-gray: hsl(212, 45%, 89%);
+    --white: hsl(0, 0%, 100%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --grayish-blue: hsl(220, 15%, 55%);
+}
 
 *{
     margin:0px
 }
 .light-gray-bg {
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--light-gray);
 }
 
 .white-bg {
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--white);
 }
 
 .rounded-10 {
@@ -45,13 +51,13 @@ main>div{
 }
 
 h1{
-    color: #1F314F;
+    color: var(--dark-blue);
     font-size: 22px;
 }
 
 p{
     font-size: 15px;
-    color: #7D889E;
+    color: var(--grayish-blue);
     margin: 16px 16px 0px 16px;
 }
 
